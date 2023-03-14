@@ -4,9 +4,6 @@
 
 #Update this code to show miliseconds in the timestamp
 
-
-
-
 import os
 import logging
 import azure.functions as func
