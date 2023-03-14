@@ -4,6 +4,7 @@
 
 #Update this code to show miliseconds in the timestamp
 
+
 import os
 import logging
 import azure.functions as func
@@ -11,6 +12,7 @@ from azure.storage.blob import BlobServiceClient, BlobClient
 from azure.core.exceptions import ResourceNotFoundError, HttpResponseError
 import openai
 import datetime
+
 
 def main(myblob: func.InputStream):
     logging.info(f"Python blob trigger function processed blob \n"
